@@ -4,20 +4,26 @@
     background-color: #313131;
     color: #FAFBEE;
 }
+header {
+    background-color: #313131;
+    display: flex;
+}
+.navitems {
+    display: flex;
+}
 .logo {
     width: 23%; 
     padding: 1%; 
     text-align: left;
+}
+.navitems li, .footeritems li {
+    list-style-type: none;
 }
 nav {
     width: 73%;
     padding: 1%;
     text-align: right;
     color: #FAFBEE;
-}
-ul {
-    width: 50%; 
-    margin-left: auto;
 }
 button {
     background-color: #a70909;
@@ -32,6 +38,11 @@ button {
 }
 footer {
     background-color: #313131;
+}
+.footeritems {
+    display: flex;
+    justify-content: space-around;
+    color: #FAFBEE;
 }
 .personalinfo {
     text-align: right;
